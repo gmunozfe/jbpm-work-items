@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.kie</groupId>
     <artifactId>kie-parent</artifactId>
-    <version>7.54.0-SNAPSHOT</version>
+    <version>7.54.0.Final</version>
   </parent>
 
   <groupId>org.jbpm.contrib</groupId>
@@ -1153,7 +1153,7 @@
         </property>
       </activation>
       <modules>
-        <module>template-resources</module>
+        <!-- module>template-resources</module>
         <module>archive-workitem</module>
         <module>exec-workitem</module>
         <module>ftp-workitem</module>
@@ -1185,7 +1185,7 @@
         <module>riot-workitem</module>
         <module>pastebin-workitem</module>
         <module>vimeo-workitem</module>
-        <module>kafka-workitem</module>
+        
         <module>google-maps-workitem</module>
         <module>okta-workitem</module>
         <module>docker-workitem</module>
@@ -1193,7 +1193,9 @@
         <module>repository-springboot</module>
         <module>repository-wildfly</module>
         <module>karaf-itests</module>
-        <module>long-running-rest-workitem</module>
+        <module>long-running-rest-workitem</module-->
+        
+        <module>kafka-workitem</module>
         <module>jbpm-workitem-itests</module>
       </modules>
     </profile>
@@ -1207,10 +1209,10 @@
       </activation>
       <modules>
         <module>kafka-workitem</module>
-        <module>template-resources</module>
+        <!-- module>template-resources</module>
         <module>camel-workitem</module>
         <module>repository</module>
-        <module>karaf-itests</module>
+        <module>karaf-itests</module-->
         <module>jbpm-workitem-itests</module>
       </modules>
     </profile>
