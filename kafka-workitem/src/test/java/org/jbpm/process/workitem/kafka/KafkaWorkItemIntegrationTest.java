@@ -31,6 +31,7 @@ public class KafkaWorkItemIntegrationTest {
                 "/" + System.getProperty("artifactId") + "-" +
                 System.getProperty("version") + "/";
 
+        System.out.println("@@ repoPath:"+repoPath+" ; System.getProperty(artifactId):"+System.getProperty("artifactId"));
         Map<String, WorkDefinitionImpl> repoResults = new WorkItemRepository().getWorkDefinitions(repoPath,
                                                                                                   null,
                                                                                                   System.getProperty("artifactId"));
